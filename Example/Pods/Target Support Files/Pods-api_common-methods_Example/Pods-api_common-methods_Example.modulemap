@@ -1,0 +1,6 @@
+framework module Pods_api_common_methods_Example {
+  umbrella header "Pods-api_common-methods_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

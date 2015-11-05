@@ -1,0 +1,6 @@
+framework module api_common_methods {
+  umbrella header "api_common-methods-umbrella.h"
+
+  export *
+  module * { export * }
+}

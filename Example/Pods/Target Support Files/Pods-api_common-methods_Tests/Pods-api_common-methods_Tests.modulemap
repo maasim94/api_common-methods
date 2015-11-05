@@ -1,0 +1,6 @@
+framework module Pods_api_common_methods_Tests {
+  umbrella header "Pods-api_common-methods_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
