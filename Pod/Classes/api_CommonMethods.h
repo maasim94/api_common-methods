@@ -1,13 +1,12 @@
 //
 //  api.h
-//  Calculator
 //
-//  Created by Shaharyar HAFEEZ on 6/11/12.
+//  Created by Arslan Asim on 6/11/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 
-#import "sqlite3.h"
+//#import "sqlite3.h"
 #import <QuartzCore/QuartzCore.h>
 #import <math.h>
 
@@ -27,116 +26,134 @@
 
 #pragma mark -
 #pragma mark custom Methods
-+(void)makeAPhoneCallOnNumber:(NSString *)number;
-+(CGFloat)getMaximumLabelHeightwithGivenWidth:(float) width andString:(NSString *)text;
++(void)makeAPhoneCallOnNumber:(nonnull NSString *)number;
++(CGFloat)getMaximumLabelHeightwithGivenWidth:(float) width andString:(nonnull NSString *)text;
 
 // CA transition (fade in/out) Functions
-+(void)transitionOnView:(UIView *)fadeView ;
++(void)transitionOnView:(nonnull UIView *)fadeView ;
 
 
 // Mobile Model Detection
 +(NSInteger)DeviceModel;
 //CSV parser
-+(NSMutableArray *)CSVParser:(NSString *)string;
++(nullable NSMutableArray *)CSVParser:(nonnull NSString *)string;
 
 //==========================================================================================
 // popUpAnimation
 //==========================================================================================
-+(void)popUpAnimationWithType:(NSString *)Effect onNavigationController:(UINavigationController *)Controller;
++(void)popUpAnimationWithType:( nonnull NSString *)Effect onNavigationController:(nonnull UINavigationController *)Controller;
 
 //==========================================================================================
 // Sort Array
 //==========================================================================================
-+(NSArray *) sortArray :(NSMutableArray *)array;
++(nonnull NSArray *) sortArray :(nonnull NSMutableArray *)array;
 //==================================================
 //Color of a pixel and inverse color of given color
 //==================================================
-+ (UIColor *) inverseColor: (UIColor *)GivenColor;
-+ (UIColor*) getPixelColorAtLocation:(CGPoint)point Image:(UIImage *)image;
++ (nullable UIColor *) inverseColor: (nonnull UIColor *)GivenColor;
++ (nullable UIColor*) getPixelColorAtLocation:(CGPoint)point Image:(nonnull UIImage *)image;
 
 //==================================================
 //CheckValidity of Email
 //==================================================
 
-+(BOOL) IsValidEmail:(NSString *)checkString;
-+(NSIndexPath *)returnIndexPathofSender:(id)sender fromTableView:(UITableView *)tableView;
++(BOOL) IsValidEmail:(nonnull NSString *)checkString;
++(nonnull NSIndexPath *)returnIndexPathofSender:(nonnull id)sender fromTableView:(nonnull UITableView *)tableView;
 
 #pragma mark -
 #pragma mark RoundIMageView
 
-+(NSMutableArray *)AllCountriesName;
-+(void)RoundImageView:(UIImageView *)imgView;
++(nonnull NSMutableArray *)AllCountriesName;
++(void)RoundImageView:(nonnull UIImageView *)imgView;
 
 
 #pragma mark -
 #pragma mark Coversion Methods
-+(int)convertToint:(NSString *)str;
++(int)convertToint:(nonnull NSString *)str;
 
-+(NSString *)convertToString:(int)val;
++(nullable NSString *)convertToString:(int)val;
 
-+(float)convertStringToFloat:(NSString *)str;
++(float)convertStringToFloat:(nonnull  NSString *)str;
 
-+(NSString *)convertFloatToString:(float)val;
++(nullable NSString *)convertFloatToString:(float)val;
 
 
 #pragma mark -
 #pragma mark String functions
-+(BOOL)CompareStrings:(NSString *)str1 string2:(NSString *)str2;
++(BOOL)CompareStrings:(nonnull NSString *)str1 string2:(nonnull NSString *)str2;
 
-+(BOOL)StringContains:(NSString *)mainString smallString:(NSString *)smallString;
++(BOOL)StringContains:(nonnull NSString *)mainString smallString:(nonnull NSString *)smallString;
 
-+(NSInteger)ReturnIndexof:(NSString *)mainString smallString:(NSString *)smallString;
++(NSInteger)ReturnIndexof:(nonnull NSString *)mainString smallString:(nonnull NSString *)smallString;
 
-+(NSString *)returnSubstringbyIndex:(NSInteger)index1 index2:(NSInteger)index2 string:(NSString *)mainString;
++(nullable NSString *)returnSubstringbyIndex:(NSInteger)index1 index2:(NSInteger)index2 string:(nonnull NSString *)mainString;
 
-+(NSString *)returnSubstringbyValue:(NSString *)str1 str2:(NSString *)str2 string:(NSString *)mainString;
++(nullable NSString *)returnSubstringbyValue:(nonnull NSString *)str1 str2:(nonnull NSString *)str2 string:(nonnull NSString *)mainString;
 
-+(NSString *)removeSpaces:(NSString *)string;
++(nullable NSString *)removeSpaces:(nonnull NSString *)string;
 
-+(NSString *)replaceStringwithString:(NSString *)mainString strTobeReplaced:(NSString *)strTobeReplaced stringReplaceWith:(NSString *)stringReplaceWith;
++(nullable NSString *)replaceStringwithString:(nonnull NSString *)mainString strTobeReplaced:(nonnull NSString *)strTobeReplaced stringReplaceWith:(nonnull NSString *)stringReplaceWith;
 
-+(NSString *)Append:(NSString *)mainString subString:(NSString *)subString;
++(nullable NSString *)Append:(nonnull NSString *)mainString subString:(nonnull NSString *)subString;
 
-+(NSArray *)tocanizeTheString:(NSString *)mainString tocan:(NSString *)tocan;
++(nullable NSArray *)tocanizeTheString:(nonnull NSString *)mainString tocan:(nonnull NSString *)tocan;
 
-+(NSString *)performFormating:(float)value;
++(nullable NSString *)performFormating:(float)value;
 
-+(NSString *)checkDecimals:(NSString *)value;
++(nullable NSString *)checkDecimals:(nonnull NSString *)value;
 
 #pragma mark -
 #pragma mark Google Maps Functions
 
-+(NSString *)adressFromLatLon_New:(NSString *)lat Lon:(NSString *)lon;
++(nullable NSString *)adressFromLatLon_New:(nonnull NSString *)lat Lon:(nonnull NSString *)lon;
 
-+(NSString *)latlonfromAddress_New:(NSString *)address;
++(nullable NSString *)latlonfromAddress_New:(nonnull NSString *)address;
 
 #pragma mark -
 #pragma mark Tab Bar Functions
 
-+ (void) showTabBar:(UITabBarController *) tabbarcontroller;
++ (void) showTabBar:(nonnull UITabBarController *) tabbarcontroller;
 
-+ (void) hideTabBar:(UITabBarController *) tabbarcontroller;
++ (void) hideTabBar:(nonnull UITabBarController *) tabbarcontroller;
 
 #pragma mark -
 #pragma mark Calender Functions
 
-+(NSMutableArray *)get_Start_End_Day_OfWeek:(NSDate *)date;
++(nullable NSMutableArray *)get_Start_End_Day_OfWeek:(nonnull NSDate *)date;
 
-+(NSDate *)getLastDateOfMonth:(NSDate *)date;
++(nullable NSDate *)getLastDateOfMonth:(nonnull NSDate *)date;
 
-+(NSDate *)getStartingDateOfMonth:(NSDate *)date;
++( nullable NSDate *)getStartingDateOfMonth:(nonnull NSDate *)date;
 
-+(NSInteger)getWeekNo:(NSDate *)date;
++(NSInteger)getWeekNo:(nonnull NSDate *)date;
 
-+(NSDate *)getNextDay:(NSDate *)date;
++(nullable NSDate *)getNextDay:(nonnull NSDate *)date;
 
-+(NSDate *)getPreviousDay:(NSDate *)date;
++(nullable NSDate *)getPreviousDay:(nonnull NSDate *)date;
 
-+(NSInteger)getWeeks:(NSDate *)date;
++(NSInteger)getWeeks:(nonnull NSDate *)date;
 
 #pragma mark -
 #pragma mark AlertViews
-+(UIAlertView *)simpleAlert:(NSString *)title desc:(NSString *)descr;
-+(UIAlertView *)simpleAlertWithYesNo:(NSString *)title desc:(NSString *)descr andtag:(NSInteger)tag delegate:(id)delegate;
-+(UIAlertView *)simpleAlertWith2Options:(NSString *)title desc:(NSString *)descr cancelOption:(NSString *)cancel otherOption:(NSString *)option2 andTag:(NSInteger)tag andDelegate:(id)delegate;
++(nonnull UIAlertView *)simpleAlert:(nullable NSString *)title desc:(nullable NSString *)descr;
++(nonnull UIAlertView *)simpleAlertWithYesNo:(nullable NSString *)title desc:(nullable NSString *)descr andtag:(NSInteger)tag delegate:(nullable id)delegate;
++(nonnull UIAlertView *)simpleAlertWith2Options:(nullable NSString *)title desc:(nullable NSString *)descr cancelOption:(nullable NSString *)cancel otherOption:(nullable NSString *)option2 andTag:(NSInteger)tag andDelegate:(nullable id)delegate;
+#pragma mark -
+#pragma mark AlertControllers
+
++(nonnull UIAlertController *)simpleAlertController:(nullable NSString *)title message:(nullable NSString *)message handler:(void (^ __nullable)( UIAlertAction * _Nullable action))myHandler;
+
++(void )showSimpleAlertController:(nullable NSString *)title message:(nullable NSString *)message handler:(void (^ __nullable)( UIAlertAction * _Nullable action))myHandler;
+
++(void )showAlertControllerWithYesNoOptions:(nullable NSString *)title message:(nullable NSString *)message yesHandler:(void (^ __nullable)( UIAlertAction * _Nullable action))yesHandler noHandler:(void (^ __nullable)( UIAlertAction * _Nullable action))noHandler;
+
++(void)showAlertControllerWith2Options:(nullable NSString *)title message:(nullable NSString *)message Option1:(nonnull NSString *)option1 option2:(nonnull NSString *)option2 option1Handler:(void (^ __nullable)( UIAlertAction * _Nullable action))option1Handler option2Handler:(void (^ __nullable)( UIAlertAction * _Nullable action))option2Handler;
+
+
+#pragma mark -
+#pragma mark TOP View Controllers
++(nonnull UIViewController *)topViewController;
+
+
+
 @end

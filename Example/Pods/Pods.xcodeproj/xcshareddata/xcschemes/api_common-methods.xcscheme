@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B4068C86194B855F60B8CBBC'
+               BlueprintIdentifier = 'B85DD057CB6D5AB6E067F3AE'
                BlueprintName = 'api_common-methods'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'api_common_methods.framework'>

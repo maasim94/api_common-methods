@@ -1,15 +1,14 @@
 {
   "name": "api_common-methods",
   "version": "0.1.0",
-  "summary": "A short description of api_common-methods.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/api_common-methods",
+  "summary": "Commons Methods used by Obj-C",
+  "homepage": "https://github.com/maasim94/api_common-methods",
   "license": "MIT",
   "authors": {
     "Arslan Asim": "ma.asim94@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/api_common-methods.git",
+    "git": "https://github.com/maasim94/api_common-methods.git",
     "tag": "0.1.0"
   },
   "platforms": {

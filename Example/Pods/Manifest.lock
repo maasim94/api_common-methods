@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  api_common-methods: e5cbb388ed7af1f44f0a5eedaba739162b4d82fe
+  api_common-methods: f6a158b39e2e8d802e97d37c69ff60610e9dab7b
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
 
 COCOAPODS: 0.39.0

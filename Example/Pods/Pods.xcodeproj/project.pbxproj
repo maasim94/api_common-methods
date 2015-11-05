@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CC5395380D2DCA454514DA19FB0826 /* api_CommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 539AAE28336180ECC61ECBDC934E57B0 /* api_CommonMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
-		18BF3C4290BE2CD59326B528610065BB /* api_common-methods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E9EACC380CA97B44E7089EF32618AB /* api_common-methods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
 		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
@@ -16,26 +16,26 @@
 		490CE363679D042CD569DEC1930FEA5B /* Pods-api_common-methods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1C4A69CAC42B54B51C2C4828F76985 /* Pods-api_common-methods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
+		5466AAB79F408D5DB3A3FDD94BA2C544 /* api_common-methods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D853E0FFC4F4C9E21A3BAE6C034C20B0 /* api_common-methods-dummy.m */; };
 		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
 		696C069B611C6BA81ADAF88ADF2694AF /* Pods-api_common-methods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3591B3A68F0367DD4F8587D281E8D1C3 /* Pods-api_common-methods_Example-dummy.m */; };
 		716A1BA32CA08A077671402DE268EF84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		723CC49095BC058B30AAC3CE24973E09 /* api_common-methods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E9EACC380CA97B44E7089EF32618AB /* api_common-methods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76FBB4FDF136A402A117DBA909D82C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		7736BDF771B544A1E25A8A695BDFC03E /* api_common-methods.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDE7AB73629ADB67EF1EFEAEF98723C7 /* api_common-methods.bundle */; };
 		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
 		79ED860B870FF011D57EBD39C4156134 /* Pods-api_common-methods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7EA939B1BA16B68876BC025E989D922 /* Pods-api_common-methods_Tests-dummy.m */; };
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E955752B9E67BAC963DD38F43B3D73A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83712E3F31E6D76C583ACD67B4FB4984 /* api_CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = DE198BC2292C8A3E572344E1D2E54334 /* api_CommonMethods.m */; };
 		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		959159A9E9B3C30475BABD23B02FF467 /* Pods-api_common-methods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 638EA617D8A4C17849016018DA0DFB7D /* Pods-api_common-methods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2722C5E1D33BF472379FFB9F8661992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		A530534714BC830291F53780FDE7862E /* api_common-methods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D853E0FFC4F4C9E21A3BAE6C034C20B0 /* api_common-methods-dummy.m */; };
 		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
 		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
-		B5334646F73C1768BC75F94E3E94C429 /* api_common-methods.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDE7AB73629ADB67EF1EFEAEF98723C7 /* api_common-methods.bundle */; };
 		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
-		EC37BF051BEB49EE0066D445 /* api_CommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = EC37BF031BEB49EE0066D445 /* api_CommonMethods.h */; settings = {ASSET_TAGS = (); }; };
-		EC37BF061BEB49EE0066D445 /* api_CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = EC37BF041BEB49EE0066D445 /* api_CommonMethods.m */; settings = {ASSET_TAGS = (); }; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
 /* End PBXBuildFile section */
 
@@ -47,25 +47,25 @@
 			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		7FB1085F0547E9E3DEA12C9B225B0116 /* PBXContainerItemProxy */ = {
+		7212B243FA3EF7504C80AD1B4E9C9406 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BCF8CF78BC7BD46E0201EAFA20893575;
+			remoteGlobalIDString = 9469EA1D3FEC1245E430ED623AF8D11A;
 			remoteInfo = "api_common-methods-api_common-methods";
 		};
 		AFE5CB9F5603F0794CAF54DC0A5A139D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D6D893DB037019B911BC9A46EB6ABF2;
+			remoteGlobalIDString = B921E0B3A4AB2B5F179460F2EAF67712;
 			remoteInfo = "api_common-methods";
 		};
 		EDE7ABB1E23F93B100745E23839DCD8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D6D893DB037019B911BC9A46EB6ABF2;
+			remoteGlobalIDString = B921E0B3A4AB2B5F179460F2EAF67712;
 			remoteInfo = "api_common-methods";
 		};
 /* End PBXContainerItemProxy section */
@@ -94,6 +94,7 @@
 		449550D34B8CECD3EFD1F319CFECF1FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		539AAE28336180ECC61ECBDC934E57B0 /* api_CommonMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = api_CommonMethods.h; sourceTree = "<group>"; };
 		5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		5D9A7B34CF6A43E61672A49E26DA78BC /* Pods-api_common-methods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-api_common-methods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "api_common-methods.xcconfig"; sourceTree = "<group>"; };
@@ -117,11 +118,10 @@
 		D34D5CE2DB11111BE748F93D5D1ECE5B /* api_common-methods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "api_common-methods.modulemap"; sourceTree = "<group>"; };
 		D4D74B3EB0D09EE64C4D75ED82800D8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D853E0FFC4F4C9E21A3BAE6C034C20B0 /* api_common-methods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "api_common-methods-dummy.m"; sourceTree = "<group>"; };
+		DE198BC2292C8A3E572344E1D2E54334 /* api_CommonMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = api_CommonMethods.m; sourceTree = "<group>"; };
 		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		E23B6599E4AAB429FB734258179A7661 /* Pods-api_common-methods_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-api_common-methods_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		EC37BF031BEB49EE0066D445 /* api_CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api_CommonMethods.h; sourceTree = "<group>"; };
-		EC37BF041BEB49EE0066D445 /* api_CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = api_CommonMethods.m; sourceTree = "<group>"; };
 		F0B921B75B653CB1436A52C794132DD9 /* Pods-api_common-methods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-api_common-methods_Example.modulemap"; sourceTree = "<group>"; };
 		F4838250A6C97966EE137DB598498720 /* api_common_methods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = api_common_methods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EA939B1BA16B68876BC025E989D922 /* Pods-api_common-methods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-api_common-methods_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -138,6 +138,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		954F6C2059A48011E6060430DADE0D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,26 +156,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FB35C2D56F88857F2A5E9C7BE148A60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2722C5E1D33BF472379FFB9F8661992 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB81250BDBE5ACCAE1D4E5C5A9005382 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CBAAB3038C80117CEB3A4E043BF12305 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				716A1BA32CA08A077671402DE268EF84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0F83C1B159D7F17EDA7666706DE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FBB4FDF136A402A117DBA909D82C06 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +178,7 @@
 		120743BE3785D685F6BBFFDB3CE0199F /* api_common-methods */ = {
 			isa = PBXGroup;
 			children = (
-				93C979B99179E177409D8A14806E5332 /* Pod */,
+				D03FB3D4A7F317F3F9B032CECC45D517 /* Pod */,
 				EDBCD1E15391EB43860CF8FAEAC7F318 /* Support Files */,
 			);
 			name = "api_common-methods";
@@ -191,15 +191,6 @@
 				CD3FB7D37E46A5379C926728A416D78E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2F9F74E0B00DC53F8007E2FC7C062B4F /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				EC37BF031BEB49EE0066D445 /* api_CommonMethods.h */,
-				EC37BF041BEB49EE0066D445 /* api_CommonMethods.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */ = {
@@ -278,14 +269,6 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		93C979B99179E177409D8A14806E5332 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2F9F74E0B00DC53F8007E2FC7C062B4F /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		A78CE87681B42105A65DA44E0F79FC82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +291,14 @@
 				853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D03FB3D4A7F317F3F9B032CECC45D517 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC54DE56A9C021054330909F6CF1CA6F /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		D26BE33D5D0404AC60FA3EEA79B1F2B4 /* Development Pods */ = {
@@ -370,6 +361,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FC54DE56A9C021054330909F6CF1CA6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				539AAE28336180ECC61ECBDC934E57B0 /* api_CommonMethods.h */,
+				DE198BC2292C8A3E572344E1D2E54334 /* api_CommonMethods.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -378,15 +378,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				490CE363679D042CD569DEC1930FEA5B /* Pods-api_common-methods_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5EE93721FC0F06260BA5B34D768D4C9E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18BF3C4290BE2CD59326B528610065BB /* api_common-methods-umbrella.h in Headers */,
-				EC37BF051BEB49EE0066D445 /* api_CommonMethods.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +391,15 @@
 				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
 				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
 				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACB1390F17DA86C9057EE156EDAA794 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723CC49095BC058B30AAC3CE24973E09 /* api_common-methods-umbrella.h in Headers */,
+				06CC5395380D2DCA454514DA19FB0826 /* api_CommonMethods.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,24 +432,22 @@
 			productReference = FFF9F996AD87593AF12C50290E5A50B8 /* Pods_api_common_methods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7D6D893DB037019B911BC9A46EB6ABF2 /* api_common-methods */ = {
+		9469EA1D3FEC1245E430ED623AF8D11A /* api_common-methods-api_common-methods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AF9D88A854A407D0BBA285569E75D41 /* Build configuration list for PBXNativeTarget "api_common-methods" */;
+			buildConfigurationList = 00A254CD689833AF5199D91CC7423431 /* Build configuration list for PBXNativeTarget "api_common-methods-api_common-methods" */;
 			buildPhases = (
-				0F66DFE92478DCF51547C44C76277C3F /* Sources */,
-				9FB35C2D56F88857F2A5E9C7BE148A60 /* Frameworks */,
-				A38AD89BBBED31B2A1E0E7B71653ACCE /* Resources */,
-				5EE93721FC0F06260BA5B34D768D4C9E /* Headers */,
+				9714BA2096052DF1C45146DF91A7470B /* Sources */,
+				954F6C2059A48011E6060430DADE0D79 /* Frameworks */,
+				1A9A0D122B98BB48E9A3664037C398BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3C544A1824802C2FF6187E6C8637FBD6 /* PBXTargetDependency */,
 			);
-			name = "api_common-methods";
-			productName = "api_common-methods";
-			productReference = F4838250A6C97966EE137DB598498720 /* api_common_methods.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "api_common-methods-api_common-methods";
+			productName = "api_common-methods-api_common-methods";
+			productReference = BDE7AB73629ADB67EF1EFEAEF98723C7 /* api_common-methods.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -468,22 +466,24 @@
 			productReference = 870C7FFDEA43817A89235E98814D534C /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BCF8CF78BC7BD46E0201EAFA20893575 /* api_common-methods-api_common-methods */ = {
+		B921E0B3A4AB2B5F179460F2EAF67712 /* api_common-methods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E69F9325331BAE85AC793456EE59F170 /* Build configuration list for PBXNativeTarget "api_common-methods-api_common-methods" */;
+			buildConfigurationList = 73031A6342FA1CA2A4DF7273C589966F /* Build configuration list for PBXNativeTarget "api_common-methods" */;
 			buildPhases = (
-				C19605C6199959CEE30197ABD3B5A1E7 /* Sources */,
-				CB81250BDBE5ACCAE1D4E5C5A9005382 /* Frameworks */,
-				611109BD6E39911A07B4FD3B07DD31D3 /* Resources */,
+				07AE43138ED12B7E95F0F9EB791CCF61 /* Sources */,
+				E3E0F83C1B159D7F17EDA7666706DE0B /* Frameworks */,
+				32BA8FDDF73ABBFF492941213B9A62A5 /* Resources */,
+				9ACB1390F17DA86C9057EE156EDAA794 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				03D46D76C9067C00E63B578F45A68501 /* PBXTargetDependency */,
 			);
-			name = "api_common-methods-api_common-methods";
-			productName = "api_common-methods-api_common-methods";
-			productReference = BDE7AB73629ADB67EF1EFEAEF98723C7 /* api_common-methods.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "api_common-methods";
+			productName = "api_common-methods";
+			productReference = F4838250A6C97966EE137DB598498720 /* api_common_methods.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		EC980B8299D1B01666F357046DD3AEE3 /* Pods-api_common-methods_Tests */ = {
 			isa = PBXNativeTarget;
@@ -525,8 +525,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D6D893DB037019B911BC9A46EB6ABF2 /* api_common-methods */,
-				BCF8CF78BC7BD46E0201EAFA20893575 /* api_common-methods-api_common-methods */,
+				B921E0B3A4AB2B5F179460F2EAF67712 /* api_common-methods */,
+				9469EA1D3FEC1245E430ED623AF8D11A /* api_common-methods-api_common-methods */,
 				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
 				748176958F9E43F3F3777E50C8AF95DE /* Pods-api_common-methods_Example */,
 				EC980B8299D1B01666F357046DD3AEE3 /* Pods-api_common-methods_Tests */,
@@ -535,30 +535,30 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		611109BD6E39911A07B4FD3B07DD31D3 /* Resources */ = {
+		1A9A0D122B98BB48E9A3664037C398BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A38AD89BBBED31B2A1E0E7B71653ACCE /* Resources */ = {
+		32BA8FDDF73ABBFF492941213B9A62A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5334646F73C1768BC75F94E3E94C429 /* api_common-methods.bundle in Resources */,
+				7736BDF771B544A1E25A8A695BDFC03E /* api_common-methods.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F66DFE92478DCF51547C44C76277C3F /* Sources */ = {
+		07AE43138ED12B7E95F0F9EB791CCF61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC37BF061BEB49EE0066D445 /* api_CommonMethods.m in Sources */,
-				A530534714BC830291F53780FDE7862E /* api_common-methods-dummy.m in Sources */,
+				5466AAB79F408D5DB3A3FDD94BA2C544 /* api_common-methods-dummy.m in Sources */,
+				83712E3F31E6D76C583ACD67B4FB4984 /* api_CommonMethods.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,7 +593,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C19605C6199959CEE30197ABD3B5A1E7 /* Sources */ = {
+		9714BA2096052DF1C45146DF91A7470B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -603,22 +603,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C544A1824802C2FF6187E6C8637FBD6 /* PBXTargetDependency */ = {
+		03D46D76C9067C00E63B578F45A68501 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "api_common-methods-api_common-methods";
-			target = BCF8CF78BC7BD46E0201EAFA20893575 /* api_common-methods-api_common-methods */;
-			targetProxy = 7FB1085F0547E9E3DEA12C9B225B0116 /* PBXContainerItemProxy */;
+			target = 9469EA1D3FEC1245E430ED623AF8D11A /* api_common-methods-api_common-methods */;
+			targetProxy = 7212B243FA3EF7504C80AD1B4E9C9406 /* PBXContainerItemProxy */;
 		};
 		6612A239B9C68E8E10C09C5E1BF161FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "api_common-methods";
-			target = 7D6D893DB037019B911BC9A46EB6ABF2 /* api_common-methods */;
+			target = B921E0B3A4AB2B5F179460F2EAF67712 /* api_common-methods */;
 			targetProxy = AFE5CB9F5603F0794CAF54DC0A5A139D /* PBXContainerItemProxy */;
 		};
 		6BE18E3E842C62BF30662862BF251A77 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "api_common-methods";
-			target = 7D6D893DB037019B911BC9A46EB6ABF2 /* api_common-methods */;
+			target = B921E0B3A4AB2B5F179460F2EAF67712 /* api_common-methods */;
 			targetProxy = EDE7ABB1E23F93B100745E23839DCD8E /* PBXContainerItemProxy */;
 		};
 		6CC93EED79B4E13091C25E97F6C1745D /* PBXTargetDependency */ = {
@@ -733,6 +733,18 @@
 			};
 			name = Debug;
 		};
+		2A93E2AFAD632DDB70AEB5D2E4C7FD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "api_common-methods";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		2E0CBDDDDFA3DD5B9D3407F3A2FEACC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D9A7B34CF6A43E61672A49E26DA78BC /* Pods-api_common-methods_Tests.debug.xcconfig */;
@@ -764,15 +776,30 @@
 			};
 			name = Debug;
 		};
-		2E5DECA70F8B0FFB177CD176D3DCB20F /* Release */ = {
+		41F9ED0EE5C012D65131AC49128A5842 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "api_common-methods";
+				GCC_PREFIX_HEADER = "Target Support Files/api_common-methods/api_common-methods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/api_common-methods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/api_common-methods/api_common-methods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = api_common_methods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -798,33 +825,6 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_api_common_methods_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63A8C30A22F2B4E07F4F575FF67F8630 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/api_common-methods/api_common-methods-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/api_common-methods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/api_common-methods/api_common-methods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = api_common_methods;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -860,6 +860,18 @@
 			};
 			name = Release;
 		};
+		AD51F43688017FD318145887B0F9820E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "api_common-methods";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		BAF5175FA166657BEB96860F2316202A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
@@ -888,19 +900,7 @@
 			};
 			name = Debug;
 		};
-		D0B6A077A51FA994FB3928DE11F9B883 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = "api_common-methods";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D310AB933DA5B74DB5FEE5CE13A3D5C9 /* Debug */ = {
+		CACCA5C9C36B00E223451090B07BE2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62DB04F23785F886569B9DADF6B2E505 /* api_common-methods.xcconfig */;
 			buildSettings = {
@@ -960,6 +960,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00A254CD689833AF5199D91CC7423431 /* Build configuration list for PBXNativeTarget "api_common-methods-api_common-methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A93E2AFAD632DDB70AEB5D2E4C7FD23 /* Debug */,
+				AD51F43688017FD318145887B0F9820E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		01ED1381C374789D5A8E680F2C04EBAE /* Build configuration list for PBXNativeTarget "Pods-api_common-methods_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -987,20 +996,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AF9D88A854A407D0BBA285569E75D41 /* Build configuration list for PBXNativeTarget "api_common-methods" */ = {
+		73031A6342FA1CA2A4DF7273C589966F /* Build configuration list for PBXNativeTarget "api_common-methods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D310AB933DA5B74DB5FEE5CE13A3D5C9 /* Debug */,
-				63A8C30A22F2B4E07F4F575FF67F8630 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E69F9325331BAE85AC793456EE59F170 /* Build configuration list for PBXNativeTarget "api_common-methods-api_common-methods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0B6A077A51FA994FB3928DE11F9B883 /* Debug */,
-				2E5DECA70F8B0FFB177CD176D3DCB20F /* Release */,
+				CACCA5C9C36B00E223451090B07BE2CA /* Debug */,
+				41F9ED0EE5C012D65131AC49128A5842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

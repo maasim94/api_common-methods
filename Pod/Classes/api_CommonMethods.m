@@ -1,8 +1,7 @@
 //
 //  api_CommonMethods.m
-//  Calculator
 //
-//  Created by Shaharyar HAFEEZ on 6/11/12.
+//  Created by Arslan Asim on 6/11/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
@@ -660,8 +659,8 @@
     CGContextRef    context = NULL;
     CGColorSpaceRef colorSpace;
     void *          bitmapData;
-    int             bitmapByteCount;
-    int             bitmapBytesPerRow;
+    NSInteger             bitmapByteCount;
+    NSInteger             bitmapBytesPerRow;
     
     // Get image width, height. We'll use the entire image.
     size_t pixelsWide = CGImageGetWidth(inImage);
@@ -730,4 +729,69 @@
     NSIndexPath *indexPath = [tableView indexPathForRowAtPoint:buttonPosition];
     return indexPath;
 }
+#pragma mark -
+#pragma mark AlertControllers
++(UIAlertController *)simpleAlertController:(NSString *)title message:(NSString *)message handler:(void (^ _Nullable)(UIAlertAction *))myHandler
+{
+    UIAlertController *controller = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:myHandler];
+    [controller addAction:okAction];
+    return controller;
+}
++(void)showSimpleAlertController:(NSString *)title message:(NSString *)message handler:(void (^)(UIAlertAction * _Nullable))myHandler
+{
+    UIAlertController *controller = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:myHandler];
+    [controller addAction:okAction];
+    [[self topViewController ]presentViewController:controller animated:YES completion:nil];
+
+}
++(void)showAlertControllerWithYesNoOptions:(NSString *)title message:(NSString *)message yesHandler:(void (^)(UIAlertAction * _Nullable))yesHandler noHandler:(void (^)(UIAlertAction * _Nullable))noHandler
+{
+    UIAlertController *controller = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *yesAction = [UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault handler:yesHandler];
+    [controller addAction:yesAction];
+    
+    UIAlertAction *noAction = [UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleDefault handler:noHandler];
+    [controller addAction:noAction];
+    
+    [[self topViewController ]presentViewController:controller animated:YES completion:nil];
+
+}
++(void)showAlertControllerWith2Options:(NSString *)title message:(NSString *)message Option1:(NSString *)option1 option2:(NSString *)option2 option1Handler:(void (^)(UIAlertAction * _Nullable))option1Handler option2Handler:(void (^)(UIAlertAction * _Nullable))option2Handler
+{
+    UIAlertController *controller = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *option1Action = [UIAlertAction actionWithTitle:option1 style:UIAlertActionStyleDefault handler:option1Handler];
+    [controller addAction:option1Action];
+    
+    UIAlertAction *option2Action = [UIAlertAction actionWithTitle:option2 style:UIAlertActionStyleDefault handler:option2Handler];
+    [controller addAction:option2Action];
+    
+    [[self topViewController ]presentViewController:controller animated:YES completion:nil];
+
+}
+#pragma mark -
+#pragma mark topController
+
++(UIViewController*)topViewController {
+    return [self topViewControllerWithRootViewController:[UIApplication sharedApplication].keyWindow.rootViewController];
+}
+
++(UIViewController*)topViewControllerWithRootViewController:(UIViewController*)rootViewController {
+    if ([rootViewController isKindOfClass:[UITabBarController class]]) {
+        UITabBarController* tabBarController = (UITabBarController*)rootViewController;
+        return [self topViewControllerWithRootViewController:tabBarController.selectedViewController];
+    } else if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+        UINavigationController* navigationController = (UINavigationController*)rootViewController;
+        return [self topViewControllerWithRootViewController:navigationController.visibleViewController];
+    } else if (rootViewController.presentedViewController) {
+        UIViewController* presentedViewController = rootViewController.presentedViewController;
+        return [self topViewControllerWithRootViewController:presentedViewController];
+    } else {
+        return rootViewController;
+    }
+}
+
 @end
