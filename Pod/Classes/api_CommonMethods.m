@@ -773,6 +773,35 @@
 
 }
 #pragma mark -
+#pragma mark Input Alert controller
++(void)showInputAlertwithTitle:(NSString *)title message:(NSString *)message okButttonTitle:(NSString *)buttonTitle cancelButtonTitle:(NSString *)cancelButtonTitle numberofTextFields:(NSInteger)number textfieldRetuner:(void (^)(NSInteger, UITextField * _Nonnull))textFieldReturner okButtonAction:(void (^)(UIAlertAction * _Nullable, NSArray * _Nonnull))okHandler cancelButtonAction:(void (^)(UIAlertAction * _Nullable, NSArray * _Nullable))cancelHandler
+{
+    UIAlertController *alertController   = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        if (cancelHandler) {
+            cancelHandler (action,alertController.textFields);
+        }
+    }];
+    UIAlertAction *sendAction = [UIAlertAction actionWithTitle:buttonTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        if (okHandler) {
+            okHandler(action,alertController.textFields);
+        }
+    }];
+    for (int i = 0; i<number; i++) {
+        [alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+            textFieldReturner(i,textField);
+        }];
+    }
+    
+    
+    [alertController addAction:cancelAction];
+    [alertController addAction:sendAction];
+    [[self topViewController ]presentViewController:alertController animated:YES completion:nil];
+
+    
+
+}
+#pragma mark -
 #pragma mark topController
 
 +(UIViewController*)topViewController {

@@ -21,7 +21,8 @@
     [super viewDidLoad];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
     
-        [api_CommonMethods showSimpleAlertController:@"title" message:@"message" handler:nil];
+//        [api_CommonMethods showSimpleAlertController:@"title" message:@"message" handler:nil];
+//        [api_CommonMethods ]
 
 //        [self presentViewController:[api_CommonMethods simpleAlertController:@"title" message:@"message" handler:^(UIAlertAction *action) {
 //

@@ -1,5 +1,5 @@
 PODS:
-  - api_common-methods (0.1.0)
+  - api_common-methods (0.1.1)
   - FBSnapshotTestCase (2.0.7):
     - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
   - FBSnapshotTestCase/Core (2.0.7)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  api_common-methods: f6a158b39e2e8d802e97d37c69ff60610e9dab7b
+  api_common-methods: 52eb63777ab8a706935d5830379df442a48f1b23
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
 
 COCOAPODS: 0.39.0

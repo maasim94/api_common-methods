@@ -149,6 +149,10 @@
 
 +(void)showAlertControllerWith2Options:(nullable NSString *)title message:(nullable NSString *)message Option1:(nonnull NSString *)option1 option2:(nonnull NSString *)option2 option1Handler:(void (^ __nullable)( UIAlertAction * _Nullable action))option1Handler option2Handler:(void (^ __nullable)( UIAlertAction * _Nullable action))option2Handler;
 
+#pragma mark -
+#pragma mark AlertControllers with TextFields
+
++(void)showInputAlertwithTitle:(nullable NSString *)title message:(nullable NSString *)message okButttonTitle:(nonnull NSString *)buttonTitle cancelButtonTitle:(nullable NSString *)cancelButtonTitle numberofTextFields:(NSInteger )number textfieldRetuner:(void (^ __nullable)(NSInteger order , UITextField * _Nonnull textField))textFieldReturner okButtonAction:(void (^ __nullable)(UIAlertAction * _Nullable action , NSArray * _Nonnull textFieldArray))okHandler cancelButtonAction:(void (^ __nullable)(UIAlertAction * _Nullable action , NSArray * _Nullable textFieldArray))cancelHandler;;
 
 #pragma mark -
 #pragma mark TOP View Controllers
